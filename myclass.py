@@ -3,13 +3,8 @@ class Pet():
       self.name = name
       self.types = types
 
-   def getName(self):
-       return self.name
-
-   def getName(self):
-       return self.types
-   
-   def __str__(self):
-       return "%s is a %s" % (self.name, self.types)
+   def getInfo(self):
+       print("This is a " + self.types + ".")
+        print(self.name + " is the" + self.types + "'s name.")
 
 
